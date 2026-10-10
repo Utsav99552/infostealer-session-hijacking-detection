@@ -1,0 +1,1 @@
+# infostealer-session-hijacking-detection
