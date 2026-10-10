@@ -31,5 +31,4 @@ No real victim data or malware is used.
 ## Executable (optional)
 Windows .exe is in `dist/`, built with PyInstaller.
 
-## GitHub Link
-https://github.com/YOUR-USERNAME/YOUR-REPO
+
