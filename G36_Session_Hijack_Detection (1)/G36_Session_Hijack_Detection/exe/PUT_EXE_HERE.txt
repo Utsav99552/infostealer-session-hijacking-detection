@@ -1,0 +1,7 @@
+Place G36_Detection.exe in this folder before creating the final submission zip.
+
+How to get it (pick ONE):
+ A) Build on Windows: double-click build_exe.bat in the project root,
+    then copy dist\G36_Detection.exe here.
+ B) GitHub Actions: after pushing the repo, open the "Actions" tab ->
+    "Build Windows EXE" -> latest run -> download artifact "G36_Detection_exe".

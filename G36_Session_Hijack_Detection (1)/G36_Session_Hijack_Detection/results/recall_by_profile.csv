@@ -1,0 +1,4 @@
+,naive,proxy_ua,full_emul
+A: geo/IP only,1.0,0.3235,0.0
+B: weighted rules,1.0,0.7647,0.075
+C: logistic regression,1.0,1.0,0.875

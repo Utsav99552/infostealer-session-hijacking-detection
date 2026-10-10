@@ -1,0 +1,27 @@
+Dataset: 20400 sessions (20000 legit, 400 replayed)
+
+Held-out test set: 6120 sessions, 120 attacks
+
+=== Detection results (held-out) ===
+                        Precision  Recall     F1  FPR_%    AUC   TP   FP  FN    TN
+A: geo/IP only              0.528   0.475  0.500  0.850  0.988   57   51  63  5949
+B: weighted rules           1.000   0.625  0.769  0.000  0.993   75    0  45  6000
+C: logistic regression      0.520   0.958  0.674  1.767  0.998  115  106   5  5894 
+
+=== Recall by attacker profile ===
+                        naive  proxy_ua  full_emul
+A: geo/IP only            1.0      0.32       0.00
+B: weighted rules         1.0      0.76       0.08
+C: logistic regression    1.0      1.00       0.88 
+
+=== Logistic regression coefficients (raw features) ===
+fresh_mfa           -6.47
+fp_match            -1.85
+ua_match            -1.12
+distance_km          0.00
+session_age_hours    0.12
+concurrent_use       1.30
+asn_changed          2.45
+sensitive_action     3.59 
+
+Saved tables and plots to: /home/claude/G36_Session_Hijack_Detection/results

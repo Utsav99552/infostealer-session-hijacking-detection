@@ -1,0 +1,4 @@
+,Precision,Recall,F1,FPR_%,AUC,TP,FP,FN,TN
+A: geo/IP only,0.5278,0.475,0.5,0.85,0.9875,57,51,63,5949
+B: weighted rules,1.0,0.625,0.7692,0.0,0.9934,75,0,45,6000
+C: logistic regression,0.5204,0.9583,0.6745,1.7667,0.9982,115,106,5,5894
