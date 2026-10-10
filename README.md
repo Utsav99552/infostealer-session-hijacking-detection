@@ -12,7 +12,7 @@ Group 36 | Cyber Security, Theory CA-2 (Part 2) | Symbiosis Institute of Technol
 
 Guide: Dr. Pooja Bagane
 
-**GitHub link:** https://github.com/YOUR-USERNAME/YOUR-REPO-NAME   <!-- replace with your link -->
+**GitHub link:** https://github.com/Utsav99552/infostealer-session-hijacking-detection
 
 ---
 
