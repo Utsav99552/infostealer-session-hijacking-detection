@@ -59,8 +59,8 @@ implements the **detection experiment** from the report:
 
 ```bash
 # 1. get the code
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+git clone https://github.com/Utsav99552/infostealer-session-hijacking-detection
+cd infostealer-session-hijacking-detection
 
 # 2. (optional) virtual environment
 python -m venv venv
